@@ -9,7 +9,7 @@ using CheeseMVC.ViewModels;
 
 namespace CheeseMVC.Controllers
 {
-    public class CategoryController
+    public class CategoryController : Controller
     {
         private readonly CheeseDbContext context;
 
