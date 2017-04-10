@@ -49,27 +49,5 @@ namespace CheeseMVC.Controllers
             
             return Redirect("/Category");
         }
-
-        //[HttpPost]
-        //public IActionResult Add(AddCheeseViewModel addCheeseViewModel)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        // Add the new cheese to my existing cheeses
-        //        Cheese newCheese = new Cheese
-        //        {
-        //            Name = addCheeseViewModel.Name,
-        //            Description = addCheeseViewModel.Description,
-        //            Type = addCheeseViewModel.Type
-        //        };
-
-        //        context.Cheeses.Add(newCheese);
-        //        context.SaveChanges();
-
-        //        return Redirect("/Cheese");
-        //    }
-
-        //    return View(addCheeseViewModel);
-        //}
     }
 }
